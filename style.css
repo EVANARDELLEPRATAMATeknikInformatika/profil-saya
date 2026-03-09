@@ -1,0 +1,135 @@
+/* RESET CSS: Menghapus margin dan padding default browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY: Pengaturan dasar untuk seluruh halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* NAVIGASI (MENU) */
+.navbar {
+    background-color: #333;
+    color: #f6f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none; /* Menghapus titik pada list */
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fdfaf8;
+    text-decoration: none; /* Menghilangkan garis bawah link */
+    font-weight: 500;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    color: #ff9900; /* Warna oren saat hover atau aktif */
+}
+
+/* HEADER HERO */
+.hero {
+    background-color: #007bff;
+    color: rgb(251, 249, 249);
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+/* KONTEN UTAMA (MAIN) */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: rgb(207, 165, 93);
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex: 1; /* Agar footer selalu di bawah */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* GAMBAR */
+.featured-image, .about-image {
+    width: 380px; /* Gambar tidak melebihi lebar layar */
+    height:400px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Menghilangkan jarak ganda antar border */
+    margin-top: 1rem;
+}
+
+table th, table td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* JAVASCRIPT INTERACTION CLASSES */
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* INPUT FORM */
+input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}

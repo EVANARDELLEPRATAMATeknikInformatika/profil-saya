@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- Deklarasi tipe dokumen dan bahasa yang digunakan -->
+<html lang="id">
+<head>
+    <!-- Meta charset untuk encoding karakter agar support simbol & bahasa Indonesia -->
+    <meta charset="UTF-8">
+    <!-- Meta tag untuk responsivitas pada perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul yang muncul di tab browser -->
+    <title>Toko Online Sederhana - Beranda</title>
+    <!-- Menghubungkan file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ELEMEN NAVIGASI (MENU) -->
+    <nav class="navbar">
+        <div class="logo">Evan's Profile</div>
+        <ul class="nav-links">
+            <!-- Link ke halaman itu sendiri (aktif) dan ke halaman about -->
+            <li><a href="index.html" class="active">Beranda</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+        </ul>
+    </nav>
+
+    <!-- HEADER / HERO SECTION -->
+    <header class="hero">
+        <h1>Selamat Datang!</h1>
+        <p>Menyediakan kesan dari hati terdalam.</p>
+    </header>
+
+    <!-- KONTEN UTAMA -->
+    <main class="container">
+        
+        <!-- ELEMEN GAMBAR DAN PARAGRAF -->
+        <section class="intro"style="text-align: center;">
+            <h2>My Profile</h2> 
+            <div style="margin-top: 20px;">
+            <img src="Evan.png.webp" alt="Gambar Produk Unggulan" class="featured-image">
+            <div style="margin-top: 20px;">
+            <p>
+                Kami menawarkan produk elektronik terbaru dengan harga terjangkau. 
+                Kepuasan pelanggan adalah prioritas utama kami. Silahkan lihat-lihat produk yang tersedia di bawah ini.
+            </p>
+        </section>
+
+        <!-- ELEMEN LIST (Daftar) -->
+        <section class="features">
+            <h3>Keunggulan Belanja di Kami:</h3>
+            <ul>
+                <li>Pengiriman cepat ke seluruh Indonesia</li>
+                <li>Garansi resmi 1 tahun</li>
+                <li>Support teknis 24/7</li>
+                <li>Pembayaran aman dan terenkripsi</li>
+            </ul>
+        </section>
+
+        <!-- ELEMEN TABLE (Tabel) -->
+        <section class="product-table">
+            <h3>Daftar Harga Produk</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Produk</th>
+                        <th>Kategori</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Laptop Asus VivoBook</td>
+                        <td>Laptop</td>
+                        <td>Rp 5.500.000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Samsung Galaxy A52</td>
+                        <td>Smartphone</td>
+                        <td>Rp 3.200.000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Sony WH-1000XM4</td>
+                        <td>Audio</td>
+                        <td>Rp 2.800.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- INTERAKSI JAVASCRIPT -->
+        <section class="interaction">
+            <button id="promoBtn">Lial</button>
+ihat Promo Spes            <p id="messageArea" class="hidden">🎉 Promo: Diskon 20% untuk Pembelian pertama!</p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2023 Toko Online Sederhana. All rights reserved.</p>
+    </footer>
+
+    <!-- Menghubungkan file Javascript Eksternal -->
+    <script src="script.js"></script>
+</body>
+</html>
