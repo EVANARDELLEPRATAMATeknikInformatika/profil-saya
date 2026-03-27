@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style body utama */
+body {
+  @apply bg-gray-900 text-white font-sans;
+}
+
+/* Container biar rapi */
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* Judul */
+h1 {
+  @apply text-4xl md:text-5xl font-bold;
+}
+
+h2 {
+  @apply text-2xl md:text-3xl font-semibold;
+}
+
+/* Button custom */
+.btn {
+  @apply px-5 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg transition;
+}
+
+/* Card portfolio */
+.card {
+  @apply bg-gray-800 p-5 rounded-xl shadow-md hover:scale-105 transition;
+}
